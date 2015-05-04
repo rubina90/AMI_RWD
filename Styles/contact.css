@@ -1,0 +1,38 @@
+.parlex8-back {
+    padding-top: 15px;
+    background-color: #1F6B3F;
+}
+
+.contact-heading {
+    color: white;
+}
+.contact-para {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: white;
+    text-align: center;
+}
+.contac-map {
+    background-color: transparent;
+    color: black;
+}
+
+.contact-col {
+    display: block;
+    margin: 50px auto 30px;
+    padding-top: 0px;
+}
+.contact-col-head {
+    color: white;
+}
+.contact-col-text {
+    border-right: 4px solid white;
+    border-left: 4px none white;
+    color: white;
+    text-align: center;
+}
+.contact-col-text-bar-last {
+    border-right: 0px none white;
+    color: white;
+    text-align: center;
+}

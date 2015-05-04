@@ -1,0 +1,31 @@
+.parlex7-back {
+    background-color: #24852A;
+}
+.our-process-heading {
+    color: white;
+}
+.our-process-sys {
+    color: white;
+}
+.service-head {
+    color: white;
+}
+.about-text {
+    display: block;
+    margin: 20px auto;
+    padding-left: 0px;
+    color: white;
+    text-align: center;
+}
+.about-heading {
+    color: white;
+}
+.about-des {
+    color: white;
+    text-align: center;
+}
+.about-img {
+    display: block;
+    margin: 50px auto 35px;
+    text-align: center;
+}

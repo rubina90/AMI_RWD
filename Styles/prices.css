@@ -1,0 +1,113 @@
+.team-parlex {
+    background-image: url('../Images/Prices/back_field2.png');
+    background-attachment: fixed;
+}
+
+.parlex5-back {
+    padding-top: 15px;
+    background-color: rgba(0, 0, 0, 0.74);
+}
+
+.ourplan-heading {
+    color: white;
+}
+.our-plan-text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+.our-plan-paragraph {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+}
+
+.plan1 {
+    padding-left: 0px;
+    border-style: solid;
+    border-width: 1px 1px 4px;
+    border-color: #ffce54;
+}
+.plan1.plan3 {
+    border-color: #a0d468;
+}
+.plan1.plan4 {
+    border-color: #fc6e51;
+}
+.plan1-ser1 {
+    background-color: #ffce54;
+}
+.plan1-ser1.plan3-ser3 {
+    background-color: #a0d468;
+}
+.plan1-ser1.plan4-ser4 {
+    background-color: #fc6e51;
+}
+.plan1-ser1-para {
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    padding: 0px 10px 20px;
+    border-bottom: 2px dashed #eee;
+    color: white;
+    text-align: center;
+}
+.plan-1-butn {
+    display: block;
+    width: 40%;
+    margin: 10px auto 20px;
+    padding: 10px;
+    border-radius: 0px;
+    background-color: #ffce54;
+    box-shadow: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.plan-1-butn:hover {
+    border-radius: 0px;
+    background-color: #ffce54;
+    box-shadow: none;
+    color: white;
+}
+.plan-1-butn.plan-1-butn2 {
+    background-color: #a0d468;
+    box-shadow: none;
+}
+.plan-1-butn.plan-1-butn3 {
+    background-color: #a0d468;
+    box-shadow: none;
+}
+.plan-1-butn.plan-4-butn4 {
+    background-color: #fc6e51;
+    box-shadow: none;
+}
+.price {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    text-align: center;
+}
+.fixed-header {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 1);
+}
+.navbar {
+}
+.plan2 {
+    border-width: 1px 1px 4px;
+    border-color: #a0d468;
+}
+.plan2-ser2 {
+    background-color: #DBF363;
+}

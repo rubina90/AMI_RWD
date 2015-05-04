@@ -1,0 +1,37 @@
+.portfolio-parlex {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parlex5-back {
+    padding-top: 15px;
+    background-color: rgba(0, 0, 0, 0.74);
+}
+.service-combo {
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: transparent;
+}
+.service-h1 {
+    padding-bottom: 12px;
+    border-bottom: 2px solid #474747;
+}
+.service-button {
+    display: block;
+    margin: 10px auto;
+    padding: 8px;
+    background-image: -webkit-linear-gradient(#13ad7d, #13ad7d);
+    background-image: -o-linear-gradient(#13ad7d, #13ad7d);
+    background-image: linear-gradient(#13ad7d, #13ad7d);
+    box-shadow: none;
+    text-align: center;
+}
+.services-text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+}

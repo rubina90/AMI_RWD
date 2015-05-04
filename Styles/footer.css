@@ -1,0 +1,45 @@
+.footer-logo {
+    display: block;
+    margin: 0px auto 20px;
+}
+.footer-social {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.fotter-facebook {
+    position: relative;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    float: left;
+}
+.fotter-twiter {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+}
+.fotter-social-wrap {
+    display: block;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    align-content: center;
+}
+.fotter-social {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.fotter-quote {
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 13px;
+}
+
+.copyright-area {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
