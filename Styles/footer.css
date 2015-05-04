@@ -43,3 +43,10 @@
     font-weight: 600;
     font-size: 18px;
 }
+
+.footer-parlex {
+    background-image: url('../Images/Common/back_field3.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center bottom;
+}

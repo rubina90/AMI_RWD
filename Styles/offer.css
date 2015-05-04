@@ -4,6 +4,14 @@
     background-attachment: fixed;
 }
 
+.portfolio-parlex {
+    background: url('../Images/Offer/back_forest.png');
+    padding-top: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 .parlex5-back {
     padding-top: 15px;
     background-color: rgba(0, 0, 0, 0.74);
