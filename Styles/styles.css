@@ -9,10 +9,15 @@
 @import 'header.css';
 
 body{
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size: 14px;
     font-weight: normal;
     color: #000;
+}
+
+h1,h2,h3,h4{
+    margin: 0;
+    padding: 0;
 }
 .separator {
     display: block;
@@ -21,9 +26,8 @@ body{
     margin: 0px auto 10px;
     padding-top: 0px;
     padding-bottom: 0px;
-    border-bottom: 4px double rgba(0, 0, 0, 0.23);
+    border-bottom: 4px double rgba(255, 255, 255, 0.23);
     box-shadow: none;
-    color: #333;
 }
 
 .white{
@@ -32,4 +36,30 @@ body{
 
 .no-border{
     border: none;
+}
+
+.title{
+    color: #fff;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+.subtitle{
+    display: block;
+    margin: 20px auto;
+    padding-left: 0px;
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+.description{
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.box-container{
+    margin: 0;
+    padding: 15px;
 }
