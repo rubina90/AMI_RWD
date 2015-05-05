@@ -5,7 +5,15 @@
 @import 'gallery.css';
 @import 'prices.css';
 @import 'contact.css';
+@import 'footer.css';
+@import 'header.css';
 
+body{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #000;
+}
 .separator {
     display: block;
     width: 100%;
@@ -16,4 +24,12 @@
     border-bottom: 4px double rgba(0, 0, 0, 0.23);
     box-shadow: none;
     color: #333;
+}
+
+.white{
+    background-color: #fff;
+}
+
+.no-border{
+    border: none;
 }
