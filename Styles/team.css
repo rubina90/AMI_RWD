@@ -90,3 +90,34 @@
 .team-name-des {
     font-size: 12px;
 }
+.quotes {
+    background-color:  #1F6B3F;
+}
+#quotes-carousel:before {
+    content: url("../Images/Team/quote5.png");
+    opacity: 0.1;
+    overflow: auto;
+    left: 20px;
+    top: 30px;
+    position: relative;
+}
+
+.item{
+    background: transparent;
+    text-align: center;
+    height: 200px;
+}
+.item p {
+    font-size: 14px;
+    font-style: italic;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.carousel{
+    margin-top: 20px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.carousel-control.right, .carousel-control.left {
+    background: none;
+}
