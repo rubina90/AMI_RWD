@@ -63,3 +63,8 @@ h1,h2,h3,h4{
     margin: 0;
     padding: 15px;
 }
+
+.parlex5-back {
+    padding-top: 15px;
+    background-color: rgba(0, 0, 0, 0.74);
+}

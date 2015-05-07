@@ -1,10 +1,4 @@
 .portfolio-parlex {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-.portfolio-parlex {
     background: url('../Images/Offer/back_forest.png');
     padding-top: 0px;
     background-size: cover;
@@ -12,10 +6,6 @@
     background-attachment: fixed;
 }
 
-.parlex5-back {
-    padding-top: 15px;
-    background-color: rgba(0, 0, 0, 0.74);
-}
 .service-combo {
     padding-right: 10px;
     padding-left: 10px;
@@ -24,6 +14,22 @@
 .service-h1 {
     padding-bottom: 12px;
     border-bottom: 2px solid #474747;
+}
+.service{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.service img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.service h4{
+    color: #fff;
+    font-variant: small-caps;
+    font-size: 15px;
 }
 .service-button {
     display: block;

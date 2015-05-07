@@ -13,10 +13,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 }*/
-.parlex5-back {
-    padding-top: 15px;
-    background-color: rgba(0, 0, 0, 0.74);
-}
+
 .team {
     padding-top: 0px;
     background-image: url('../Images/Team/back_canter.png');
@@ -26,10 +23,6 @@
     color: white;
     letter-spacing: 0px;
     text-indent: 0px;
-}
-
-.team-cover {
-    background-color: rgba(0, 0, 0, 0.74);
 }
 
 .experinc-box {
@@ -97,7 +90,7 @@
     content: url("../Images/Team/quote5.png");
     opacity: 0.1;
     overflow: auto;
-    left: 20px;
+    left: 20%;
     top: 30px;
     position: relative;
 }
