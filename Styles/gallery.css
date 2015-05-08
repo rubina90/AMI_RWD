@@ -94,10 +94,10 @@
 
 .tiles figcaption:hover {
     opacity: 1;
-    -webkit-transform: translate(15px, 15px);
+    /*-webkit-transform: translate(15px, 15px);
     -moz-transform: translate(15px, 15px);
     -ms-transform: translate(15px, 15px);
-    transform: translate(15px, 15px);
+    transform: translate(15px, 15px);*/
 }
 
 .tiles figcaption h3 {
@@ -110,6 +110,19 @@
 
 .tiles figcaption a {
     margin-top: 30px;
+}
+
+figure {
+    width: 300px;
+    height: 245px;
+
+}
+.back-1 {
+    background: url('../Images/Gallery/hubertus.png');
+}
+
+.back-2 {
+    background: url('../Images/Gallery/tereny.png');
 }
 /*
 .grid {
@@ -175,10 +188,40 @@
     color: #2c3f52;
 }
 */
+@media (max-width: 1024px) {
+    figure {
+        width: 200px;
+        height: 150px;
+    }
+    .tiles figcaption {
+        padding: 5px;
+    }
+    .tiles figcaption h3 {
+        margin: 0;
+    }
+}
 
 @media(max-width: 768px){
     .tiles figcaption {
-        position: relative;
+        position: absolute;
+        top: 50%;
+        height: 50px;
+        width: 100%;
         opacity: 1;
+        margin: 0 auto;
+        padding: 5px;
+    }
+    .tiles figcaption h3 {
+        margin: 0;
+    }
+
+    .tiles figcaption a {
+        margin-top: 10px;
+    }
+    figure {
+        width: 300px;
+        height: 245px;
     }
 }
+
+
