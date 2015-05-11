@@ -1,4 +1,4 @@
-.team-parlex {
+.prices {
     background-image: url('../Images/Prices/back_field2.png');
     background-attachment: fixed;
 }
@@ -20,66 +20,36 @@
     text-align: center;
 }
 
-.plan1 {
-    padding-left: 0px;
+.price-section {
     border-style: solid;
     border-width: 1px 1px 4px;
     border-color: #ffce54;
+    padding: 0;
+    margin: 10px;
 }
 .plan1.plan3 {
     border-color: #a0d468;
 }
-.plan1.plan4 {
+.border3 {
     border-color: #fc6e51;
 }
-.plan1-ser1 {
+.background1 {
     background-color: #ffce54;
 }
+
+.border2 {
+    border-width: 1px 1px 4px;
+    border-color: #a0d468;
+}
+
 .plan1-ser1.plan3-ser3 {
     background-color: #a0d468;
 }
-.plan1-ser1.plan4-ser4 {
+.background3 {
     background-color: #fc6e51;
 }
 .plan1-ser1-para {
-    margin-top: 10px;
-    margin-right: 0px;
-    margin-bottom: 30px;
-    padding: 0px 10px 20px;
-    border-bottom: 2px dashed #eee;
-    color: white;
-    text-align: center;
-}
-.plan-1-butn {
-    display: block;
-    width: 40%;
-    margin: 10px auto 20px;
-    padding: 10px;
-    border-radius: 0px;
-    background-color: #ffce54;
-    box-shadow: none;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-}
 
-.plan-1-butn:hover {
-    border-radius: 0px;
-    background-color: #ffce54;
-    box-shadow: none;
-    color: white;
-}
-.plan-1-butn.plan-1-butn2 {
-    background-color: #a0d468;
-    box-shadow: none;
-}
-.plan-1-butn.plan-1-butn3 {
-    background-color: #a0d468;
-    box-shadow: none;
-}
-.plan-1-butn.plan-4-butn4 {
-    background-color: #fc6e51;
-    box-shadow: none;
 }
 .price {
     display: block;
@@ -90,6 +60,13 @@
     padding-left: 10px;
     text-align: center;
 }
+
+.price-section h4 {
+    padding: 5px;
+    font-size: 14px;
+    text-align: center;
+    color: #000;
+}
 .fixed-header {
     position: fixed;
     z-index: 999;
@@ -97,12 +74,15 @@
     height: auto;
     background-color: rgba(255, 255, 255, 1);
 }
+
+.price-text {
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+}
 .navbar {
 }
-.plan2 {
-    border-width: 1px 1px 4px;
-    border-color: #a0d468;
-}
-.plan2-ser2 {
+
+.background2{
     background-color: #DBF363;
 }
