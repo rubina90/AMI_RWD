@@ -19,7 +19,7 @@
     margin-left: auto;
 }
 
-.tiles figure img {
+.tiles>figure>img {
     max-width: 100%;
     display: block;
     margin-right: auto;
@@ -215,7 +215,7 @@ figure {
         margin: 0 auto;
         padding: 5px;
     }
-    .tiles figcaption h3 {
+    .tiles>figcaption>h3 {
         margin: 0;
     }
 
@@ -230,9 +230,15 @@ figure {
 
 .modal-body {
     margin-top: 55px;
-    margin-bottom: 55px;
 }
-
+/*
 .gallery-carousel>.item {
     height: auto;
+}
+*/
+.carousel-inner>.item>img {
+    display: block;
+    max-height: 90vh;
+    width: auto;
+    margin: 0 auto;
 }
