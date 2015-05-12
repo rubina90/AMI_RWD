@@ -1,32 +1,26 @@
-<div class="contact-parlex" >
-    <div class="parlex8-back">
-        <div class="w-container">
-            <div class="wrap">
-                <div class="contact-div">
-                    <h1 class="contact-heading">KONTAKT</h1>
-                    <div class="sepreater"></div>
-                </div>
-                <p class="contact-para">Thanks for taking the time to contact us!
-                    <br>We do our best to respond to quickly, it could take us 1-2 business days to get back to you. Feel free to say hello!</p>
-                <div class="w-form">
-                    <form action="contact.php" method="post">
-                        <label for="name">Name:</label>
-                        <input class="w-input" type="text" placeholder="Enter your name" name="cf_name">
-                        <label for="email">Email Address:</label>
-                        <input class="w-input" placeholder="Enter your email address" type="text" name="cf_email" required="required">
-                        <label for="email">Your Message:</label>
-                        <textarea class="w-input message" placeholder="Enter your Message Here" name="cf_message"></textarea><br>
-                        <input class="w-button" type="submit" value="Send">
-                    </form>
-                    <div class="w-form-done">
-                        <p>Thank you! Your submission has been received!</p>
-                    </div>
-                    <div class="w-form-fail">
-                        <p>Oops! Something went wrong while submitting the form :(</p>
-                    </div>
-                </div>
+<div class="parlex8-back">
+    <div class="contact-form-section row  box-container">
+        <h1 class="title">KONTAKT</h1>
+        <div class="subtitle">Formularz Kontaktowy</div>
+        <div class="separator"></div>
+        <p class="description">W jakich sprawach kontaktować się, jesli na jazdę - prosze telefonicznie
+        <br>Bla bla bla</p>
+        <div class="contact-form col-xs-12 col-md-offset-2 col-md-8">
+            <script language="javascript">var sa_email_id = '52103-daea7';var sa_sent_text = 'Dziękujemy za wiadomość!';</script>
+            <script language="javascript" src="http://s1.smartaddon.com/sa_htmlform.js"></script>
+            <div id="sa_contactdiv">
+                <form name=sa_htmlform style="margin:0px" onsubmit="return sa_contactform()">
+                    <table>
+                        <tr><td>Imię:<br><input class="inputs" type="text" name="name" required="true" /></td></tr>
+                        <tr><td>E-mail:<br><input class="inputs" type="text" name="email" required="true" /></td></tr>
+                        <tr><td>Wiadomość:<br><textarea class="inputs" name="message" cols="42" rows="9" required="true"></textarea></td></tr>
+                        <tr><td><input class="confirm-button inputs" type="submit" value="Wyślij"></td></tr>
+                    </table>
+                </form><!--<div style="padding-top:10px"><a href="http://www.smartaddon.com/contact_form.html">Contact Form</a> provided by SmartAddon.com</div>-->
             </div>
         </div>
+    </div>
+
 
         <div class="w-container">
             <div class="w-row contact-col">
@@ -79,5 +73,5 @@
                 </div>
             </div>
         </div>
-    </div>
+
 </div>
