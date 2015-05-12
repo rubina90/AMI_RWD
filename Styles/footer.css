@@ -20,7 +20,7 @@
     margin-left: auto;
     float: none;
 }
-.fotter-social-wrap {
+.fotter-social {
     display: block;
     width: 60%;
     margin-right: auto;
@@ -32,16 +32,18 @@
     margin-left: 5px;
 }
 
-.fotter-quote {
+.footer-quote {
     text-align: center;
     letter-spacing: 5px;
-    font-size: 13px;
+    font-size: 15px;
+    padding: 10px;
+    color: #fff;
 }
 
 .copyright-area {
     text-align: center;
-    font-weight: 600;
-    font-size: 18px;
+    color: #fff;
+    font-size: 15px;
 }
 
 .footer-parlex {
@@ -53,4 +55,8 @@
 
 .parlex9-back {
     background-color: rgba(0, 0, 0, 0.89);
+}
+.social-img {
+    display: block;
+    margin: 0 auto;
 }
