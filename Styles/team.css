@@ -95,18 +95,18 @@
     position: relative;
 }
 
-.item{
+#quotes-carousel>.carousel-inner>.item{
     background: transparent;
     text-align: center;
     height: 200px;
 }
-.item p {
+#quotes-carousel>.carousel-inner>.item p {
     font-size: 14px;
     font-style: italic;
     padding-left: 50px;
     padding-right: 50px;
 }
-.carousel{
+#quotes-carousel>.carousel{
     margin-top: 20px;
     margin-left: -15px;
     margin-right: -15px;

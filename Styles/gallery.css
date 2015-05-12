@@ -45,10 +45,6 @@
     color: #2c3f52;
 }
 
-.tiles figcaption span:before {
-    content: 'by ';
-}
-
 .portfolio-images {
     border: 10px solid #FFF;
     margin-bottom: 10px;
@@ -121,6 +117,17 @@ figure {
 .back-2 {
     background: url('../Images/Gallery/tereny.png');
 }
+
+.back-3 {
+    background: url('../Images/Gallery/inne.png');
+    background-position: center;
+}
+
+.back-4 {
+    background: url('../Images/Gallery/sprzedane.png');
+    background-position: center;
+}
+
 /*
 .grid {
     padding: 20px 20px 0px 20px;
@@ -221,36 +228,11 @@ figure {
     }
 }
 
-
-.quotes {
-    background-color:  #1F6B3F;
-}
-#quotes-carousel:before {
-    content: url("../Images/Team/quote5.png");
-    opacity: 0.1;
-    overflow: auto;
-    left: 20%;
-    top: 30px;
-    position: relative;
+.modal-body {
+    margin-top: 55px;
+    margin-bottom: 55px;
 }
 
-.item{
-    background: transparent;
-    text-align: center;
-    height: 200px;
+.gallery-carousel>.item {
+    height: auto;
 }
-.item p {
-    font-size: 14px;
-    font-style: italic;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-.carousel{
-    margin-top: 20px;
-    margin-left: -15px;
-    margin-right: -15px;
-}
-.carousel-control.right, .carousel-control.left {
-    background: none;
-}
-

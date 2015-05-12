@@ -1,3 +1,4 @@
+<link href="Styles/fullscreen-modal.css" rel="stylesheet" />
 <div class="portfolio-parlex">
     <div class="parlex8-back">
         <div class="portfolio row box-container">
@@ -14,91 +15,97 @@
                         <h3>Hubertus</h3>
                         <span>Kunice 2008</span>
                         <!--<a href="#">Obejrzyj całą galerię</a>-->
-                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modal-gallery1">
                             Obejrzyj galerię
                         </button>
                     </figcaption>
-                    <!-- Button trigger modal -->
-
-                    <!-- Modal -->
-                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal fade modal-fullscreen force-fullscreen bs-example-modal-lg"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" id="modal-gallery1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
                         <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-                                </div>
-                                <div class="modal-body">
-                                    <!--*********************************************************************** -->
-                                    <div id="quotes-carousel" class="carousel slide" data-interval="3000" data-ride="carousel">
-                                        <ol class="carousel-indicators">
-                                            <li data-target="#quotes-carousel" data-slide-to="0" class="active"></li>
-                                            <li data-target="#quotes-carousel" data-slide-to="1"></li>
-                                            <li data-target="#quotes-carousel" data-slide-to="2"></li>
-                                        </ol>
-                                        <div class="carousel-inner">
-                                            <div class="active item">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-
-                                            </div>
-                                            <div class="item">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-
-                                            </div>
-                                            <div class="item">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                        <h4 class="modal-title">Modal title</h4>
+                                    </div>
+                                    <div class="modal-body clearfix">
+                                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                                            <!-- Wrapper for slides-->
+                                            <div class="carousel-inner gallery-carousel">
+                                                <div class="item active">
+                                                    <img class="img-responsive" src="http://placehold.it/1200x600/555/000&text=One" alt="...">
+                                                    <div class="carousel-caption">
+                                                        Nasz koń
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <img class="img-responsive" src="http://placehold.it/1200x600/fffccc/000&text=Two" alt="...">
+                                                    <div class="carousel-caption">
+                                                        Another Image
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <img class="img-responsive" src="http://placehold.it/1200x600/fcf00c/000&text=Three" alt="...">
+                                                    <div class="carousel-caption">
+                                                        Another Image
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                        <!-- Carousel nav -->
-                                        <a class="carousel-control left" href="#quotes-carousel" data-slide="prev">
-                                            <span class="glyphicon glyphicon-chevron-left"></span>
-                                        </a>
-                                        <a class="carousel-control right" href="#quotes-carousel" data-slide="next">
-                                            <span class="glyphicon glyphicon-chevron-right"></span>
-                                        </a>
+
+                                            <!-- Controls-->
+                                            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                            </a>
+                                            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                            </a>
+                                            <!---->
+
+                                </div>
+                                    <div class="modal-footer">
+                                        <button class="btn btn-default" data-dismiss="modal">Close</button>
                                     </div>
-                                    <!--*********************************************************************** -->
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
-                                </div>
                             </div>
                         </div>
-                    </div>
                 </figure>
             </li>
             <li class="col-sm-4 col-xs-12">
                 <figure class="back-2 portfolio-images">
                    <!-- <img class="portfolio-images img-responsive" src="Images/Gallery/tereny.png" alt="img02">-->
                     <figcaption>
-                        <h3>Music</h3>
-                        <span>Jacob Cummings</span>
-                        <a href="#">Objerzyj całą galerię</a>
+                        <h3>Tereny</h3>
+                        <span>Kunice i okolice</span>
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modal-gallery">
+                            Obejrzyj galerię
+                        </button>
                     </figcaption>
                 </figure>
             </li>
             <li class="col-sm-4 col-xs-12">
-                <figure class="back-1 portfolio-images">
+                <figure class="back-4 portfolio-images">
                     <!--<img class="portfolio-images img-responsive" src="Images/Gallery/tereny.png" alt="img03">-->
                     <figcaption>
-                        <h3>Settings</h3>
-                        <span>Jacob Cummings</span>
-                        <a href="#">Take a look</a>
+                        <h3>Nadesłane</h3>
+                        <span>Sprzedane konie</span>
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modal-gallery">
+                            Obejrzyj galerię
+                        </button>
                     </figcaption>
                 </figure>
             </li>
             <li class="col-sm-4 col-xs-12">
-                <figure class="back-2 portfolio-images">
+                <figure class="back-3 portfolio-images">
                     <!--<img class="portfolio-images img-responsive" src="Images/Gallery/hubertus.png" alt="img01">-->
                     <figcaption>
-                        <h3>Hubertus</h3>
-                        <span>Kunice 2008</span>
-                        <a href="#">Obejrzyj całą galerię</a>
+                        <h3>Inne wydarzenia</h3>
+                        <span>z życia szkółki</span>
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modal-gallery">
+                            Obejrzyj galerię
+                        </button>
                     </figcaption>
                 </figure>
             </li>
         </ul>
     </div>
 </div>
+
+<script type="text/javascript" src="Scripts/gallery.js"></script>
