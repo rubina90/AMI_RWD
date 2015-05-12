@@ -60,6 +60,13 @@ h1,h2,h3,h4{
     padding: 15px;
 }
 
+.description a {
+    color: #ffce54;
+}
+.description a:hover, .description a:focus {
+    color: #fc6e51;
+}
+
 .box-container{
     margin: 0;
     padding: 15px;

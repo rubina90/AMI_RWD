@@ -21,57 +21,68 @@
         </div>
     </div>
 
+    <div class="map-section">
+        <script>
+            $.getScript("Scripts/map.js",function(){
+                $(document).ready(ready);
+            });
+        </script>
+        <script>
+            function initialize() {
+                var mapCanvas = document.getElementById('map-canvas');
+                myLatlng = new google.maps.LatLng(51.227339, 16.2570139);
+                var mapOptions = {
+                    center: myLatlng,
+                    zoom: 12,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP,
+                    scrollwheel: false
+                        };
 
-        <div class="w-container">
-            <div class="w-row contact-col">
-                <div class="w-col w-col-3 contact-col1">
-                    <div>
-                        <a href="#"><img src="images/icons/home168.png" alt="Kunice, Słoneczna 28"/></a>
-                        <h4 class="contact-col-head">Adres</h4>
-                    </div>
-                    <div>
-                        <div class="hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a">
-                            <div class="contact-col-text">ul. Słoneczna 28, Kunice k. Legnicy</div>
-                        </div>
-                    </div>
+                var map = new google.maps.Map(mapCanvas, mapOptions);
+                var marker = new google.maps.Marker({
+                    position: myLatlng,
+                    map: map,
+                    title: 'Szkółka Jazdy Konnej AMI'
+                });
+
+            }
+            google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
+        <div id="map-canvas" class="map"></div>
+    </div>
+
+    <div class="info-section row box-container">
+        <div class="separator"></div>
+            <div class="col-xs-12 col-sm-3">
+                <div class="info-column">
+                    <img src="Images/Contact/home168.png" class="img-responsive" alt="Kunice, Słoneczna 28"/>
+                    <h2 class="subtitle">Adres</h2>
+                    <div class="description">ul. Słoneczna 28, Kunice k. Legnicy</div>
                 </div>
-                <div class="w-col w-col-3 contact-col2">
-                    <div>
-                        <div class="hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a">
-                            <a href="#"><img src="images/icons/sign39.png" alt="konieami@interia.pl"/></a>
-                        </div>
-                        <h4 class="contact-col-head">E-mail</h4>
-                    </div>
-                    <div>
-                        <div class="contact-col-text">konieami@interia.pl
-                        </div>
-                    </div>
+            </div>
+            <div class="col-xs-12  col-sm-3">
+                <div class="info-column">
+                    <img src="Images/Contact/sign39.png" class="img-responsive" alt="konieami@interia.pl"/>
+                    <h2 class="subtitle">E-mail</h2>
+                    <div class="description">konieami@interia.pl</div>
                 </div>
-                <div class="w-col w-col-3 contact-col3">
-                    <div>
-                        <div class="hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a">
-                            <a href="#"><img src="images/icons/telephone5.png" alt="Joanna Jurkowska"/></a>
-                        </div>
-                        <h4 class="contact-col-head">Telefon</h4>
-                    </div>
-                    <div>
-                        <div class="contact-col-text-bar-last"> +48 603 401 692
-                        </div>
-                    </div>
-                </div>
-                <div class="w-col w-col-3 contact-col4">
-                    <div>
-                        <div class="hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a">
-                            <a href="#"><img src="images/icons/facebook3.png" alt="Joanna Jurkowska"/></a>
-                        </div>
-                        <h4 class="contact-col-head">Facebook</h4>
-                    </div>
-                    <div>
-                        <div class="contact-col-text-bar-last"> <a href="https://www.facebook.com/HodowlaKoniSlaskichAmi">Polub</a>
-                        </div>
+            </div>
+            <div class="col-xs-12 col-sm-3">
+                <div class="info-column">
+                    <img src="Images/Contact/telephone5.png"  class="img-responsive" alt="Joanna Jurkowska"/>
+                    <h2 class="subtitle">Telefon</h2>
+                    <div class="description"> +48 603 401 692
                     </div>
                 </div>
             </div>
-        </div>
+            <div class="col-xs-12  col-sm-3">
+                <div class="info-column">
+                        <a href="#"><img src="Images/Contact/facebook3.png" class="img-responsive" alt="Joanna Jurkowska"/></a>
+                    <h2 class="subtitle">Facebook</h2>
+                    <div class="description"> <a href="https://www.facebook.com/HodowlaKoniSlaskichAmi">Polub nasz FANPAGE</a>
+                    </div>
+                </div>
+            </div>
+    </div>
 
 </div>
