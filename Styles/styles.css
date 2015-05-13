@@ -81,3 +81,21 @@ h1,h2,h3,h4{
     padding-top: 15px;
     background-color: #1F6B3F;
 }
+
+.btn-lg, .btn-xs, button.close {
+    background-color: #1F6B3F;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 0px;
+    border-color: #ffce54;
+    border-width: 1px;
+    border-style: solid;
+    color: #fff;
+}
+
+.btn-lg:hover, .btn-lg:focus, .btn-lg:active {
+    background-color: #ffce54;
+    border-color: #ffce54;
+    color: #fff;
+    outline: none;
+}

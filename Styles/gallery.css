@@ -26,7 +26,7 @@
     margin-left: auto;
 }
 
-.tiles figcaption {
+.portfolio-images>figcaption {
     position: absolute;
     top: 0;
     left: 0;
@@ -39,7 +39,7 @@
     margin-left: auto;
 }
 
-.tiles figcaption h3 {
+.portfolio-images>figcaption>h3 {
     margin: 0;
     padding: 0;
     color: #2c3f52;
@@ -52,13 +52,12 @@
     box-shadow: 5px 5px 0px #20AE61;
 }
 
-.tiles figcaption button {
+.portfolio-images>figcaption>button {
     text-align: center;
-    padding: 5px 10px;
-    border-radius: 2px;
+    margin-top: 20px;
     display: inline-block;
-    background: #a0d468;
-    color: #2c3f52;
+    /*background: #a0d468;
+    color: #2c3f52;*/
 }
 
 .portfolio-text {
@@ -93,7 +92,7 @@
     transform: translate(15px, 15px);*/
 }
 
-.tiles figcaption h3 {
+.tiles>figcaption>h3 {
     margin-top: 25px;
 }
 
@@ -101,7 +100,7 @@
     display: block;
 }
 
-.tiles figcaption button {
+.tiles>figcaption>button {
     margin-top: 30px;
 }
 
@@ -197,16 +196,16 @@ figure {
         width: 200px;
         height: 150px;
     }
-    .tiles figcaption {
+    .portfolio-images>figcaption {
         padding: 5px;
     }
-    .tiles figcaption h3 {
+    .portfolio-images>figcaption>h3 {
         margin: 0;
     }
 }
 
 @media(max-width: 768px){
-    .tiles figcaption {
+    .portfolio-images>figcaption {
         position: absolute;
         top: 50%;
         height: 50px;
@@ -215,11 +214,11 @@ figure {
         margin: 0 auto;
         padding: 5px;
     }
-    .tiles>figcaption>h3 {
+    .portfolio-images>figcaption>h3 {
         margin: 0;
     }
 
-    .tiles figcaption button {
+    .portfolio-images>figcaption>button {
         margin-top: 10px;
     }
     figure {
