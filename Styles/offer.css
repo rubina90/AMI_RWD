@@ -20,13 +20,13 @@
     margin-bottom: 30px;
 }
 
-.service img {
+.service>img {
     display: block;
     margin-right: auto;
     margin-left: auto;
 }
 
-.service h4{
+.service>h4{
     color: #fff;
     font-variant: small-caps;
     font-size: 15px;
