@@ -142,7 +142,7 @@ expandOpen
 
 
 
-.expandOpen,.team-section:hover, .pulse,.price-section:hover, .service-icon:hover{
+.expandOpen,.team-section:hover, .pulse,.price-section:hover, .service-icon:hover, .service:hover {
 
     animation-name: expandOpen;
 
