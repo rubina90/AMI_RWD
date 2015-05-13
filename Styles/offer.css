@@ -20,7 +20,7 @@
     margin-bottom: 30px;
 }
 
-.service>img {
+.service>a>img {
     display: block;
     margin-right: auto;
     margin-left: auto;
