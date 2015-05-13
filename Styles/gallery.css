@@ -231,11 +231,8 @@ figure {
 .modal-body {
     margin-top: 55px;
 }
-/*
-.gallery-carousel>.item {
-    height: auto;
-}
-*/
+
+
 .carousel-inner>.item>img {
     display: block;
     max-height: 90vh;

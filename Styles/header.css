@@ -23,12 +23,10 @@
     line-height: 80px;
 }
 
-.navbar-default .navbar-nav>li[aria-expanded = true]>a {
-    line-height: normal;
-}
+/**/
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover{
-    background-color: #20AE61;
+    background-color: #1F6B3F;
     color: #fff;
 }
 .navbar-default .navbar-toggle .icon-bar{
@@ -86,3 +84,10 @@
     </nav>
 </section>
 */
+
+@media (max-width: 768px)
+{
+    .navbar-default .navbar-nav>li[aria-expanded = true]>a {
+        line-height: normal;
+    }
+}
