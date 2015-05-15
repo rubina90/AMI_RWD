@@ -1,6 +1,6 @@
 function scrollToAnchor(aid){
     var aTag = $(aid);
-    $('html,body').animate({scrollTop: aTag.offset().top - 80},'slow');
+    $('html,body').animate({scrollTop: aTag.offset().top - 75},'slow');
 }
 
 $(".scroll-link").click(function() {

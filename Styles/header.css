@@ -87,7 +87,7 @@
 
 @media (max-width: 768px)
 {
-    .navbar-default .navbar-nav>li[aria-expanded = true]>a {
+    .navbar-default .navbar-nav>li>a {
         line-height: normal;
     }
 }
