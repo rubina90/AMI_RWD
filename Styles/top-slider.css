@@ -1,3 +1,9 @@
+.slidersection {
+    display: block;
+    padding-top: 80px;
+    background: rgba(255, 255, 255, 0);
+}
+
 .sp-slideshow {
     position: relative;
     margin: 0px auto;
@@ -269,6 +275,11 @@ input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
 @media screen and (max-width: 320px){
     .sp-slideshow { height: 158px; }
 }
+@media screen and (min-width: 1600px) {
+    .sp-content {
+        background-size: 130%;
+    }
+}
 
 .sliderarea {
     height: auto;
@@ -286,11 +297,6 @@ input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
     overflow-x: hidden;
     overflow-y: hidden;
     margin-top: 0px;
-}
-.slidersection {
-    display: block;
-    padding-top: 80px;
-    background: rgba(255, 255, 255, 0);
 }
 
 /*.w-icon-slider-right:before {
