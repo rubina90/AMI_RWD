@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c46ca5df-edcc-4aca-b16e-4414165650f8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Partials/header.html" afterPath="$PROJECT_DIR$/Partials/header.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Images/Common/favicon.ico" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scripts/scroll.js" afterPath="$PROJECT_DIR$/Scripts/scroll.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AMI_RWD.iws" />
@@ -28,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="1955">
-              <caret line="10" column="91" selection-start-line="10" selection-start-column="91" selection-end-line="10" selection-end-column="91" />
+            <state vertical-scroll-proportion="0.7153931" vertical-offset="0" max-vertical-offset="1989">
+              <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -48,10 +47,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scroll.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="scroll.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scripts/scroll.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.05489774" vertical-offset="0" max-vertical-offset="929">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
               <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
               <folding />
             </state>
@@ -155,8 +154,8 @@
         <option value="$PROJECT_DIR$/Styles/header.css" />
         <option value="$PROJECT_DIR$/Scripts/header.js" />
         <option value="$PROJECT_DIR$/Partials/header.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Scripts/scroll.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -297,6 +296,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AMI_RWD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AMI_RWD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -318,11 +335,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Projects\AMI_RWD\Images\Common" />
       <recent name="E:\Projects\AMI_RWD\Images\TopSlider" />
       <recent name="C:\Users\Dorota Przeniosło\WebstormProjects\AMI_RWD\Images\TopSlider" />
       <recent name="C:\Users\Dorota Przeniosło\WebstormProjects\AMI_RWD\Images\Gallery\Sprzedane" />
       <recent name="C:\Users\Dorota Przeniosło\WebstormProjects\AMI_RWD\Images\Gallery\Inne" />
-      <recent name="C:\Users\Dorota Przeniosło\WebstormProjects\AMI_RWD\Images\Gallery\Tereny" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Dorota Przeniosło\WebstormProjects\AMI_RWD\Images\TopSlider" />
@@ -518,7 +535,11 @@
       <created>1431676896612</created>
       <updated>1431676896612</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="scroll fix">
+      <created>1431677629056</created>
+      <updated>1431677629056</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -561,7 +582,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="styles for team section" />
     <MESSAGE value="quotes section" />
     <MESSAGE value="offer section + team sec fix" />
     <MESSAGE value="our team photos" />
@@ -586,7 +606,8 @@
     <MESSAGE value="some pictures for slider" />
     <MESSAGE value="more pictures for slider" />
     <MESSAGE value="menu blink effect fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="menu blink effect fix" />
+    <MESSAGE value="scroll fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="scroll fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -943,18 +964,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/Scripts/scroll.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="1955">
-          <caret line="10" column="91" selection-start-line="10" selection-start-column="91" selection-end-line="10" selection-end-column="91" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/scroll.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05489774" vertical-offset="0" max-vertical-offset="929">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.7153931" vertical-offset="0" max-vertical-offset="1989">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
           <folding />
         </state>
       </provider>
