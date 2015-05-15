@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c46ca5df-edcc-4aca-b16e-4414165650f8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Partials/contact.html" afterPath="$PROJECT_DIR$/Partials/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Partials/gallery.html" afterPath="$PROJECT_DIR$/Partials/gallery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Styles/header.css" afterPath="$PROJECT_DIR$/Styles/header.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Partials/header.html" afterPath="$PROJECT_DIR$/Partials/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scripts/header.js" afterPath="$PROJECT_DIR$/Scripts/header.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Partials/offer.html" afterPath="$PROJECT_DIR$/Partials/offer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Partials/prices.html" afterPath="$PROJECT_DIR$/Partials/prices.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Styles/styles.css" afterPath="$PROJECT_DIR$/Styles/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Partials/team.html" afterPath="$PROJECT_DIR$/Partials/team.html" />
+    <list default="true" id="c46ca5df-edcc-4aca-b16e-4414165650f8" name="Default" comment="refactor - top slider">
+      <change type="DELETED" beforePath="E:\Projects\AMI_RWD\Scripts\top-slider.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Styles/top-slider.css" afterPath="$PROJECT_DIR$/Styles/top-slider.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Partials/top-slider.html" afterPath="$PROJECT_DIR$/Partials/top-slider.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AMI_RWD.iws" />
@@ -35,91 +28,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="top-slider.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Partials/top-slider.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="1275">
-              <caret line="20" column="91" selection-start-line="20" selection-start-column="91" selection-end-line="20" selection-end-column="91" />
+            <state vertical-scroll-proportion="0.62126243" vertical-offset="0" max-vertical-offset="903">
+              <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Partials/header.html">
+      <file leaf-file-name="top-slider.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Styles/top-slider.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="544">
-              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scripts/header.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
-              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scroll.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scripts/scroll.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
-              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Styles/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.5371367" vertical-offset="0" max-vertical-offset="1819">
-              <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="offer.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Partials/offer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.8333333" vertical-offset="0" max-vertical-offset="1904">
-              <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Styles/header.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
-              <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="prices.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Partials/prices.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.3148148" vertical-offset="0" max-vertical-offset="1139">
-              <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="team.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Partials/team.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.4629629" vertical-offset="0" max-vertical-offset="1734">
-              <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="3457" max-vertical-offset="4386">
+              <caret line="234" column="59" selection-start-line="234" selection-start-column="59" selection-end-line="234" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -143,8 +66,6 @@
         <option value="$PROJECT_DIR$/Styles/offer.css" />
         <option value="$PROJECT_DIR$/Styles/animations.css" />
         <option value="$PROJECT_DIR$/Scripts/scroll.js" />
-        <option value="$PROJECT_DIR$/Styles/top-slider.css" />
-        <option value="$PROJECT_DIR$/Partials/top-slider.html" />
         <option value="$PROJECT_DIR$/Styles/gallery.css" />
         <option value="$PROJECT_DIR$/Styles/styles.css" />
         <option value="$PROJECT_DIR$/Partials/contact.html" />
@@ -156,6 +77,8 @@
         <option value="$PROJECT_DIR$/Partials/header.html" />
         <option value="$PROJECT_DIR$/Scripts/header.js" />
         <option value="$PROJECT_DIR$/Styles/header.css" />
+        <option value="$PROJECT_DIR$/Styles/top-slider.css" />
+        <option value="$PROJECT_DIR$/Partials/top-slider.html" />
       </list>
     </option>
   </component>
@@ -495,19 +418,23 @@
       <created>1431684288865</created>
       <updated>1431684288865</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="refactor - main + header">
+      <created>1431717103748</created>
+      <updated>1431717103748</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18802084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18802084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -538,7 +465,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="price list - styles adjusting" />
     <MESSAGE value="menu styling fixes" />
     <MESSAGE value="logo" />
     <MESSAGE value="contact form - part 1" />
@@ -563,7 +489,8 @@
     <MESSAGE value="top-slider - fix" />
     <MESSAGE value="top-slider - fix for jumping presentation" />
     <MESSAGE value="gallery -fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="gallery -fix" />
+    <MESSAGE value="refactor - main + header" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor - main + header" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -574,13 +501,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5899">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/top-slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="340">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -790,30 +710,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/top-slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Partials/top-slider.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.653847" vertical-offset="0" max-vertical-offset="714">
-          <caret line="27" column="79" selection-start-line="27" selection-start-column="79" selection-end-line="27" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Styles/top-slider.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.571428" vertical-offset="3672" max-vertical-offset="5457">
-          <caret line="240" column="18" selection-start-line="240" selection-start-column="18" selection-end-line="240" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Bootstrap/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="27214" max-vertical-offset="112098">
@@ -936,8 +832,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Styles/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5371367" vertical-offset="0" max-vertical-offset="1819">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1819">
           <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Styles/top-slider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3457" max-vertical-offset="4386">
+          <caret line="234" column="59" selection-start-line="234" selection-start-column="59" selection-end-line="234" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Partials/top-slider.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62126243" vertical-offset="0" max-vertical-offset="903">
+          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
           <folding />
         </state>
       </provider>

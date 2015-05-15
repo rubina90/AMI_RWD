@@ -1,42 +1,21 @@
+/* ************* GENERAL ************* */
+
 .slidersection {
     display: block;
-    padding-top: 80px;
-    background: rgba(255, 255, 255, 0);
+    padding-top: 85px;
+    background: #fff;
 }
+
+/* ************* SLIDESHOW MECHANISM ************* */
 
 .sp-slideshow {
     position: relative;
     margin: 0px auto;
     width: 100%;
-    max-width: 1000px;
-    min-width: 100%;
     height: 590px;
 }
 
-.sp-content {
-    background: url('../Images/TopSlider/background.png') no-repeat scroll 0 0;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    background-position: center left ;
-}
-
-.sp-parallax-bg {
-    /*background: url(../images/slider/cloud.png) repeat-x scroll 0 0;*/
-    background-color: rgba(188, 186, 191, 0.7);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
-.sp-slideshow input {
+.sp-slideshow>input {
     position: absolute;
     bottom: 15px;
     left: 50%;
@@ -49,7 +28,7 @@
     opacity: 0;
 }
 
-.sp-slideshow input + label {
+.sp-slideshow>input + label {
     position: absolute;
     bottom: 15px;
     left: 50%;
@@ -57,7 +36,6 @@
     height: 6px;
     display: block;
     z-index: 1000;
-    border: 3px solid #fff;
     border: 3px solid rgba(255,255,255,0.9);
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -68,8 +46,7 @@
     -ms-transition: background-color linear 0.1s;
     transition: background-color linear 0.1s;
 }
-.sp-slideshow input:checked + label {
-    background-color: #fff;
+.sp-slideshow>input:checked + label {
     background-color: rgba(255,255,255,0.9);
 }
 
@@ -137,58 +114,45 @@
     transition: background-position linear 0.6s, background-color linear 0.8s;
 }
 
-/*.sp-slideshow input:checked ~ .sp-content .sp-parallax-bg {
-    -webkit-transition: background-position linear 0.7s;
-    -moz-transition: background-position linear 0.7s;
-    -o-transition: background-position linear 0.7s;
-    -ms-transition: background-position linear 0.7s;
-    transition: background-position linear 0.7s;
-}*/
-
 input.sp-selector-1:checked ~ .sp-content {
     background-position: 0 0;
-    background-color: #727b7f;
 }
 
 input.sp-selector-2:checked ~ .sp-content {
     background-position: -100px 0;
-    background-color: #7f7276;
 }
 
 input.sp-selector-3:checked ~ .sp-content {
     background-position: -200px 0;
-    background-color: #737f72;
 }
 
 input.sp-selector-4:checked ~ .sp-content {
     background-position: -300px 0;
-    background-color: #79727f;
 }
 
 input.sp-selector-5:checked ~ .sp-content {
     background-position: -400px 0;
-    background-color: #7d7f72;
 }
 
-input.sp-selector-1:checked ~ .sp-content .sp-parallax-bg {
-    background-position: 0 0;
+.lighten-back {
+    background-color: rgba(188, 186, 191, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
-input.sp-selector-2:checked ~ .sp-content .sp-parallax-bg {
-    background-position: -200px 0;
+.sp-content {
+    background: url('../Images/TopSlider/background.png') no-repeat scroll 0 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-position: center left ;
 }
 
-input.sp-selector-3:checked ~ .sp-content .sp-parallax-bg {
-    background-position: -400px 0;
-}
-
-input.sp-selector-4:checked ~ .sp-content .sp-parallax-bg {
-    background-position: -600px 0;
-}
-
-input.sp-selector-5:checked ~ .sp-content .sp-parallax-bg {
-    background-position: -800px 0;
-}
+/* ************* SLIDING GRAPHICS MECHANISM ************* */
 
 .sp-slider {
     position: relative;
@@ -224,7 +188,7 @@ input.sp-selector-5:checked ~ .sp-content .sp-parallax-bg {
     -ms-transition: opacity ease-in 0.4s 0.8s;
     transition: opacity ease-in 0.4s 0.8s;
 }
-.sp-slider > li img{
+.sp-slider > li> img{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -o-box-sizing: border-box;
@@ -267,6 +231,9 @@ input.sp-selector-4:checked ~ .sp-content .sp-slider > li:nth-child(4),
 input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
     opacity: 1;
 }
+
+/* ************* MEDIA QUERIES - ADJUSTING ************* */
+
 @media screen and (max-width: 840px){
     .sp-slideshow { height: 345px; }
 }
@@ -284,33 +251,3 @@ input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
         background-size: 130%;
     }
 }
-
-.sliderarea {
-    height: auto;
-    margin-bottom: 0px;
-}
-.imageonslide {
-    margin-bottom: 0px;
-}
-.slidecontain {
-    background-color: snow;
-}
-.mk {
-    position: relative;
-    display: block;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    margin-top: 0px;
-}
-
-/*.w-icon-slider-right:before {
-    content: "\e600";
-}
-
-.w-icon-slider-left:before {
-    content: "\e601";
-}
-
-.w-icon-nav-menu:before {
-    content: "\e602";
-}*/
