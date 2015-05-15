@@ -236,6 +236,10 @@ input.sp-selector-5:checked ~ .sp-content .sp-parallax-bg {
     max-height: 100%;
     max-width: 100%;
 }
+
+input[type="radio"] {
+    display: none;
+}
 input.sp-selector-1:checked ~ .sp-content .sp-slider {
     left: 0;
 }
