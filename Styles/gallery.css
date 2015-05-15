@@ -192,7 +192,7 @@ figure {
 }
 */
 @media (max-width: 1024px) {
-    figure {
+    .portfolio-images {
         width: 200px;
         height: 150px;
     }
@@ -221,9 +221,18 @@ figure {
     .portfolio-images>figcaption>button {
         margin-top: 10px;
     }
-    figure {
+    .portfolio-images {
         width: 300px;
         height: 245px;
+    }
+}
+
+@media (max-width: 350px)
+{
+    .portfolio-images {
+        width: 100%;
+        float:left;
+        height: 200px;
     }
 }
 
