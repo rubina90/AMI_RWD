@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c46ca5df-edcc-4aca-b16e-4414165650f8" name="Default" comment="offer refactor">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Styles/offer.css" afterPath="$PROJECT_DIR$/Styles/offer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Partials/offer.html" afterPath="$PROJECT_DIR$/Partials/offer.html" />
+    <list default="true" id="c46ca5df-edcc-4aca-b16e-4414165650f8" name="Default" comment="gallery refactoring">
+      <change type="DELETED" beforePath="E:\Projects\AMI_RWD\Scripts\gallery.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Styles/gallery.css" afterPath="$PROJECT_DIR$/Styles/gallery.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Partials/gallery.html" afterPath="$PROJECT_DIR$/Partials/gallery.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AMI_RWD.iws" />
@@ -27,21 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="offer.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Partials/offer.html">
+      <file leaf-file-name="team.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Styles/team.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.13265306" vertical-offset="1214" max-vertical-offset="1802">
-              <caret line="76" column="34" selection-start-line="76" selection-start-column="34" selection-end-line="76" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="offer.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Styles/offer.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1411">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -52,6 +43,26 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="1273" max-vertical-offset="1887">
               <caret line="95" column="46" selection-start-line="95" selection-start-column="46" selection-end-line="95" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gallery.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Partials/gallery.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="4760">
+              <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gallery.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Styles/gallery.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.33224756" vertical-offset="408" max-vertical-offset="2618">
+              <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -71,9 +82,7 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/Scripts/scroll.js" />
-        <option value="$PROJECT_DIR$/Styles/gallery.css" />
         <option value="$PROJECT_DIR$/Partials/contact.html" />
-        <option value="$PROJECT_DIR$/Partials/gallery.html" />
         <option value="$PROJECT_DIR$/Partials/prices.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Partials/header.html" />
@@ -89,6 +98,8 @@
         <option value="$PROJECT_DIR$/Styles/team.css" />
         <option value="$PROJECT_DIR$/Styles/offer.css" />
         <option value="$PROJECT_DIR$/Partials/offer.html" />
+        <option value="$PROJECT_DIR$/Partials/gallery.html" />
+        <option value="$PROJECT_DIR$/Styles/gallery.css" />
       </list>
     </option>
   </component>
@@ -448,12 +459,16 @@
       <created>1431768044175</created>
       <updated>1431768044175</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="offer refactor">
+      <created>1431769086121</created>
+      <updated>1431769086121</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3291536" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -491,7 +506,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="gallery - begin" />
     <MESSAGE value="gallery - photos and carousels" />
     <MESSAGE value="test" />
     <MESSAGE value="gallery photo captions" />
@@ -516,7 +530,8 @@
     <MESSAGE value="ref- team sec part 1" />
     <MESSAGE value="ref- eam sec - part 2" />
     <MESSAGE value="offer refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="offer refactor" />
+    <MESSAGE value="gallery refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="gallery refactoring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -721,13 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/gallery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="648">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Images/TopSlider/back1.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -742,14 +750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="27214" max-vertical-offset="112098">
           <caret line="1615" column="123" selection-start-line="1615" selection-start-column="123" selection-end-line="1615" selection-end-column="123" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Styles/gallery.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39612487" vertical-offset="3185" max-vertical-offset="4318">
-          <caret line="209" column="17" selection-start-line="209" selection-start-column="17" selection-end-line="209" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -772,13 +772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.3148148" vertical-offset="0" max-vertical-offset="1139">
           <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Partials/gallery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.038857143" vertical-offset="0" max-vertical-offset="4896">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -849,17 +842,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Styles/team.css">
+    <entry file="file://$PROJECT_DIR$/Styles/offer.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1411">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Partials/offer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13265306" vertical-offset="1214" max-vertical-offset="1802">
+          <caret line="76" column="34" selection-start-line="76" selection-start-column="34" selection-end-line="76" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Partials/team.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="1088">
+        <state vertical-scroll-proportion="0.5782313" vertical-offset="0" max-vertical-offset="1088">
           <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
           <folding>
             <element signature="tag#div#4;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
@@ -875,18 +876,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Styles/offer.css">
+    <entry file="file://$PROJECT_DIR$/Styles/team.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1411">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Partials/offer.html">
+    <entry file="file://$PROJECT_DIR$/Partials/gallery.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13265306" vertical-offset="1214" max-vertical-offset="1802">
-          <caret line="76" column="34" selection-start-line="76" selection-start-column="34" selection-end-line="76" selection-end-column="34" />
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="4760">
+          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Styles/gallery.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33224756" vertical-offset="408" max-vertical-offset="2618">
+          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
           <folding />
         </state>
       </provider>

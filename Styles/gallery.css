@@ -1,29 +1,21 @@
-.portfolio-parlex {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+/* ************* GALLERY SECTION ************* */
+.tiles{
+    margin-bottom: 0;
 }
 
-.tiles li {
+.tiles>li {
     margin-bottom: 20px;
 }
-.tiles{
-    margin-bottom: 0px;
-}
 
-.tiles figure {
-    margin: 0;
+.portfolio-images {
+    border: 10px solid #FFF;
     display: block;
     position: relative;
     margin-right: auto;
     margin-left: auto;
-}
-
-.tiles>figure>img {
-    max-width: 100%;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
+    box-shadow: 5px 5px 0 #20AE61;
+    width: 300px;
+    height: 245px;
 }
 
 .portfolio-images>figcaption {
@@ -37,41 +29,6 @@
     display: block;
     margin-right: auto;
     margin-left: auto;
-}
-
-.portfolio-images>figcaption>h3 {
-    margin: 0;
-    padding: 0;
-    color: #2c3f52;
-}
-
-.portfolio-images {
-    border: 10px solid #FFF;
-    margin-bottom: 10px;
-    margin-right: 15px;
-    box-shadow: 5px 5px 0px #20AE61;
-}
-
-.portfolio-images>figcaption>button {
-    text-align: center;
-    margin-top: 20px;
-    display: inline-block;
-    /*background: #a0d468;
-    color: #2c3f52;*/
-}
-
-.portfolio-text {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: white;
-    text-align: center;
-}
-.portfolio-heading {
-    color: white;
-}
-
-/* Caption Style 1 */
-.tiles figcaption {
     height: 100%;
     width: 100%;
     opacity: 0;
@@ -83,32 +40,34 @@
     -moz-transition: -moz-transform 0.3s, opacity 0.3s;
     transition: transform 0.3s, opacity 0.3s;
 }
-
-.tiles figcaption:hover {
+.portfolio-images>figcaption:hover {
     opacity: 1;
-    /*-webkit-transform: translate(15px, 15px);
-    -moz-transform: translate(15px, 15px);
-    -ms-transform: translate(15px, 15px);
-    transform: translate(15px, 15px);*/
 }
 
-.tiles>figcaption>h3 {
-    margin-top: 25px;
-}
 
-.tiles figcaption span {
+.portfolio-images>figcaption>span {
     display: block;
 }
 
-.tiles>figcaption>button {
-    margin-top: 30px;
+.portfolio-images>figcaption>button {
+    text-align: center;
+    margin-top: 20px;
+    display: inline-block;
 }
 
-figure {
-    width: 300px;
-    height: 245px;
-
+.portfolio-images>figcaption>h3 {
+    margin: 0;
+    padding: 0;
+    color: #2c3f52;
 }
+
+.portfolio-images>img {
+    max-width: 100%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .back-1 {
     background: url('../Images/Gallery/hubertus.png');
 }
@@ -127,70 +86,21 @@ figure {
     background-position: center;
 }
 
-/*
-.grid {
-    padding: 20px 20px 0px 20px;
-    margin: 0 auto;
-    list-style: none;
-    text-align: center;
+/* ************* MODAL SECTION ************* */
+.modal-header {
+    padding-bottom: 0;
+}
+.modal-body {
+    margin-top: 55px;
 }
 
-.grid li {
-    display: inline-block;
-    width: 210px;
-    margin: 0;
-    text-align: left;
-    position: relative;
-    margin-right: 20px;
-    margin-bottom: 15px;
-}
-
-.grid figure {
-    margin: 0;
-    position: relative;
-}
-
-.grid figure img {
-    max-width: 100%;
+.carousel-inner>.item>img {
     display: block;
-    position: relative;
+    max-height: 90vh;
+    width: auto;
+    margin: 0 auto;
 }
 
-.grid figcaption {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 20px;
-    color: #2c3f52;
-    background: #ffce54;
-}
-
-.grid figcaption h3 {
-    margin: 0;
-    padding: 0;
-    color: #2c3f52;
-}
-
-.grid figcaption span:before {
-    content: 'by ';
-}
-
-.portfolio-images {
-    border: 10px solid #FFF;
-    margin-bottom: 10px;
-    margin-right: 15px;
-    box-shadow: 5px 5px 0px #20AE61;
-}
-
-.grid figcaption a {
-    text-align: center;
-    padding: 5px 10px;
-    border-radius: 2px;
-    display: inline-block;
-    background: #a0d468;
-    color: #2c3f52;
-}
-*/
 @media (max-width: 1024px) {
     .portfolio-images {
         width: 200px;
@@ -236,14 +146,3 @@ figure {
     }
 }
 
-.modal-body {
-    margin-top: 55px;
-}
-
-
-.carousel-inner>.item>img {
-    display: block;
-    max-height: 90vh;
-    width: auto;
-    margin: 0 auto;
-}
