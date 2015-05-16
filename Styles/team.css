@@ -1,7 +1,7 @@
 /* ************* TEAM SECTION ************* */
 
 .team {
-    padding-top: 0px;
+    padding-top: 0;
     background-image: url('../Images/Team/back_canter.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -10,7 +10,7 @@
 }
 
 .team-section {
-    margin-top: 0px;
+    margin-top: 0;
     padding: 15px;
 }
 
@@ -22,7 +22,7 @@
     display: block;
     width: auto;
     height: auto;
-    margin-top: 0px;
+    margin-top: 0;
     margin-right: auto;
     margin-left: auto;
     padding-top: 15px;
@@ -48,9 +48,6 @@
 
 /* ************* QUOTES SECTION ************* */
 
-.quotes {
-    background-color:  #1F6B3F;
-}
 #quotes-carousel:before {
     content: url("../Images/Team/quote5.png");
     opacity: 0.1;
@@ -65,7 +62,7 @@
     text-align: center;
     height: 200px;
 }
-#quotes-carousel>.carousel-inner>.item p {
+#quotes-carousel>.carousel-inner>.item>p {
     font-size: 14px;
     font-style: italic;
     padding-left: 50px;
