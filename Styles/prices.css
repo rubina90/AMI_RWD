@@ -9,7 +9,10 @@
     border-color: #ffce54;
     padding: 0;
     margin: 10px;
+    text-align: center;
+    color: #fff;
 }
+
 .price {
     display: block;
     margin-right: auto;
@@ -31,6 +34,7 @@
     text-align: center;
     color: #fff;
     font-size: 13px;
+    padding: 5px 10px;
 }
 
 .background1 {
@@ -38,7 +42,7 @@
 }
 
 .background2{
-    background-color: #DBF363;
+    background-color: #C3DB4B;
 }
 
 .background3 {
@@ -47,9 +51,14 @@
 
 .border2 {
     border-width: 1px 1px 4px;
-    border-color: #a0d468;
+    border-color: #C3DB4B;
 }
 
 .border3 {
     border-color: #fc6e51;
+}
+
+.price-text>li{
+    padding: 5px;
+    text-align: left;
 }
