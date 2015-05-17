@@ -85,6 +85,6 @@ blockquote>p>small {
     text-align: right;
 }
 
-.carousel-inner {
+.carousel-inner.quotes-width {
     width: 80%;
 }
