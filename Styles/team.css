@@ -76,3 +76,15 @@
 .carousel-control.right, .carousel-control.left {
     background: none;
 }
+
+blockquote {
+    text-align: center;
+}
+blockquote>p>small {
+    color: #fff;
+    text-align: right;
+}
+
+.carousel-inner {
+    width: 80%;
+}
