@@ -22,3 +22,14 @@
     font-variant: small-caps;
     font-size: 15px;
 }
+
+.offer-content>.modal-header {
+    padding-bottom: 10px;
+}
+.offer-content>.modal-body {
+    margin-top: 0px;
+}
+
+.offer-content>.modal-body>img{
+    opacity: 0.2;
+}
