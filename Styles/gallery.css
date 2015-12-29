@@ -69,20 +69,20 @@
 }
 
 .back-1 {
-    background: url('../Images/Gallery/hubertus.png');
+    background: url('../Images/Gallery/hubertus.jpg');
 }
 
 .back-2 {
-    background: url('../Images/Gallery/tereny.png');
+    background: url('../Images/Gallery/tereny.jpg');
 }
 
 .back-3 {
-    background: url('../Images/Gallery/inne.png');
+    background: url('../Images/Gallery/inne.jpg');
     background-position: center;
 }
 
 .back-4 {
-    background: url('../Images/Gallery/sprzedane.png');
+    background: url('../Images/Gallery/sprzedane.jpg');
     background-position: center;
 }
 
